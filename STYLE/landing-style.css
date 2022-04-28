@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+background-image: url(/IMAGES/Connaissez-vous\ votre\ empreinte\ sur\ le\ climat\ \ \(2\).png);}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 6;
+}
+.div2 {
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: 2 / 1 / 6 / 4;
+}
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: 3 / 4 / 5 / 6;
+}
+.div1 img {
+  width: 10em;
+  height: 7em;
+}
+.div3 a button {
+  padding: 25px;
+  border-radius: 15px;
+  background-color: #41e30b;
+  border: 0;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.div2 p {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+.shake-vertical:hover {
+  -webkit-animation: shake-vertical 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    both;
+  animation: shake-vertical 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+@-webkit-keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+    transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+    transform: translateY(-6.4px);
+  }
+}
+@keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+    transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+    transform: translateY(-6.4px);
+  }
+}
+.text-focus-in {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+footer{
+  position: absolute;
+  bottom: 1em;
+  left: 2em;
+  font-family: "Fredoka", sans-serif;
+}
+button:hover{
+  cursor: pointer;
+}
+

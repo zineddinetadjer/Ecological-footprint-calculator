@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+.header img {
+  width: 10em;
+  height: 7em;
+}
+.card {
+  box-shadow: 5px 5px 10px rgb(17, 17, 17);
+}
+.cont1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 28em;
+}
+.cont2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 28em;
+}
+.cont3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 28em;
+}
+.une {
+  margin-left: 25%;
+  width: 50%;
+  height: 80%;
+  background-image: url(/IMAGES/istockphoto-614714326-612x612.jpg);
+  background-size: cover;
+  border-radius: 15px;
+}
+.deux {
+  padding: 0 3em;
+  width: 50%;
+  margin-left: 25%;
+  height: 80%;
+  background-image: url(/IMAGES/istockphoto-1253713039-612x612.jpg);
+  background-size: cover;
+  border-radius: 15px;
+}
+#black {
+  color: rgb(190, 21, 86);
+}
+.trois {
+  width: 50%;
+  margin-left: 25%;
+  height: 80%;
+  background-image: url(/IMAGES/istockphoto-1166079489-612x612.jpg);
+  background-size: cover;
+  border-radius: 15px;
+}
+.deux .reponse {
+  margin-top: 5em;
+}
+.trois .selector {
+  margin-top: 6em;
+}
+#gasp {
+  color: #39bd0d;
+}
+.card h1 {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: "Fredoka", sans-serif;
+  color: white;
+}
+.reponse {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+}
+.form-check-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.651);
+  width: 13rem;
+  height: 4rem;
+  border-radius: 20px;
+  font-family: "Fredoka", sans-serif;
+}
+.selector {
+  background-color: #41e30b;
+  margin-left: 25%;
+  width: 50%;
+  font-family: "Fredoka", sans-serif;
+  height: 3em;
+  border-radius: 2.5em;
+  border: 0;
+  cursor: pointer;
+}
+.qst2 {
+  text-align: center;
+  margin-top: 2em;
+}
+.seconde {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.bouton {
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bouton button {
+  padding: 1em 2em;
+  border-radius: 15px;
+  background-color: #41e30b;
+  border: 0;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+a {
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgb(17, 17, 17);
+}
+footer {
+  margin: 1em 1em;
+  font-family: "Fredoka", sans-serif;
+}
+button:hover{
+  cursor: pointer;
+}
+input:hover{
+  cursor: pointer;
+}
+

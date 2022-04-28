@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
+body {
+  background-color: #ccc;
+}
+header img {
+  width: 10em;
+  height: 7em;
+}
+.qstion {
+  text-align: center;
+}
+.cards {
+  margin-top: 4em;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4em;
+}
+.icon {
+  width: 3em;
+  height: 3em;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.icon img {
+  width: 100%;
+}
+.card {
+  padding: 2em 0;
+  width: 20em;
+  height: 25em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgb(17, 17, 17);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.qst {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.type {
+  display: flex;
+}
+.plane {
+  background-image: url(/IMAGES/IMG_4676-07-04-22-04-26.JPG);
+  background-size: 20em 25em;
+}
+.car {
+  background-image: url(/IMAGES/IMG_4698-07-04-22-04-26.JPG);
+  background-size: 20em 25em;
+}
+.train {
+  background-image: url(/IMAGES/);
+}
+.cruise {
+  background-image: url(/IMAGES/IMG_4696-07-04-22-04-26.JPG);
+  background-size: 20em 25em;
+}
+button {
+  padding: 25px;
+  border-radius: 15px;
+  background-color: #41e30b;
+  border: 0;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+a {
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgb(17, 17, 17);
+}
+footer {
+  margin: 1em 1em;
+  font-family: "Fredoka", sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
+input:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habitat</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/STYLE/habitat-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="/IMAGES/Connaissez-vous votre empreinte sur le climat  (3).png" alt="logo-calculator" />
+    </header>
+    <section class="cards">
+      <div class="card">
+        <div class="one ecr">
+          <h1>Comment chauffez vous votre domicile ?</h1>
+          <select name="" class="selector">
+            <option selected disabled>
+              Veuillez choisir une des propositions suivantes
+            </option>
+            <option value="">Chauffage au mazout</option>
+            <option value="">Chauffage au gaz</option>
+            <option value="">Panneaux solaire combinés au gaz</option>
+            <option value="">Chauffage aux granulés de bois</option>
+            <option value="">Pompe à chaleur à l'air</option>
+            <option value="">Pompe à chaleur géothermique</option>
+          </select>
+          <h1>
+            Quelle est la consommation électrique de votre système de chauffage ?
+          </h1>
+          <input
+            type="number"
+            placeholder="Veuillez entrer la consommation de votre système ici (kWh/an)"
+            class="selector"
+          />
+
+        </div>
+      </div>
+      <div class="card">
+        <div class="two ecr">
+          <h1>Quel type de four utilisez-vous ?</h1>
+          <div class="repo">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="premierQst"
+                id="inline2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inline2"
+                >Four électrique encastrable (54L)</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="premierQst"
+                id="inline1"
+                value="option3"
+              />
+              <label class="form-check-label" for="inline1"
+                >Four d'une cuisinière à gaz (63L)</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="premierQst"
+                id="inline3"
+                value="option1"
+              />
+              <label class="form-check-label" for="inline3"
+                >Minifour électrique (33L)</label
+              >
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="three ecr">
+          <h1>Quel type de lave-linge préférez-vous choisir ?</h1>
+          <div class="repo">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="lave-linge"
+                id="inlineRadio1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineRadio1"
+                >Lave-linge à chargement par le haut (capacité 5kg)</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="lave-linge"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2"
+                >Lave-linge à chargementpar frontale (capacité 7kg)</label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="four ecr">
+          <h1>Quel type de réfrigérateur possédez-vous ?</h1>
+          <select name="" class="selector">
+            <option selected disabled>
+              Veuillez choisir une des propositions suivantes
+            </option>
+            <option value="">Réfrigérateur 1 porte (volume utile : 250L)</option>
+            <option value="">Réfrigérateur minibar (volume utile : 33L)</option>
+            <option value="">Réfrigérateur combiné (215L/79L)</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <div class="btn">
+      <a href="/HTML/transport/transport.html">
+        <button>Suivant</button>
+      </a>
+    </div>
+    <footer>
+      <h6>Ecole nationale polytechnique d'Alger</h6>
+      <h6>26éme journée de l'énergie</h6>
+    </footer>
+
+  </body>
+</html>

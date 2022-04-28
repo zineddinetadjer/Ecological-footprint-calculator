@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transport</title>
+    <link rel="stylesheet" href="/STYLE/transport-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="/IMAGES/Connaissez-vous votre empreinte sur le climat  (3).png"
+        alt=""
+      />
+    </header>
+    <div class="qstion">
+      <h1>Quel moyen de transport utilisez-vous?</h1>
+    </div>
+    <div class="cards">
+      <div class="card plane">
+        <div class="icon">
+          <img src="/IMAGES/plane.png" alt="" />
+        </div>
+        <div class="form">
+          <div class="qst">
+            <label for="depart">Départ</label>
+            <input
+              type="text"
+              name="depart"
+              id="depart"
+              placeholder="Indiquez un lieu"
+            />
+          </div>
+          <div class="qst">
+            <label for="arrivée">Arrivée</label>
+            <input
+              type="text"
+              name="arrivée"
+              id="arrivée"
+              placeholder="Indiquez un lieu"
+            />
+          </div>
+          <div class="qst type">
+            <h3>Type de voyage</h3>
+            <div class="radio">
+                <input type="radio" name="qst1" id="rep1" />
+                <label for="rep1">Aller retour</label>
+                <input type="radio" name="qst1" id="rep2" />
+                <label for="rep2">Aller simple</label>
+            </div>
+          </div>
+          <div class="qst">
+            <label for="personnes">Nombre de personnes</label>
+            <input
+              type="number"
+              name=""
+              id="personnes"
+              placeholder="indiquez le nombre de personnes"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="card car">
+        <div class="icon">
+          <img src="/IMAGES/car.png" alt="" />
+        </div>
+        <div class="form">
+          <div class="qst">
+            <label for="distance">Distance (Km)</label>
+            <input
+              type="number"
+              name="distance"
+              id="distance"
+              placeholder="indiquez la distance parcourue"
+            />
+          </div>
+          <div class="qst">
+            <label for="personnes1">Nombre de personnes</label>
+            <input
+              type="number"
+              name=""
+              id="personnes1"
+              placeholder="indiquez le nombre de personnes"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card train">
+        <div class="icon">
+          <img src="/IMAGES/train.png" alt="" />
+        </div>
+        <div class="form">
+          <div class="qst">
+            <label for="depart1">Départ</label>
+            <input
+              type="text"
+              name="depart1"
+              id="depart1"
+              placeholder="Indiquez un lieu"
+            />
+          </div>
+          <div class="qst">
+            <label for="arrivée1">Arrivée</label>
+            <input
+              type="text"
+              name="arrivée1"
+              id="arrivée1"
+              placeholder="Indiquez un lieu"
+            />
+          </div>
+          <div class="qst">
+            <label for="personnes2">Nombre de personnes</label>
+            <input
+              type="number"
+              name=""
+              id="personnes2"
+              placeholder="indiquez le nombre de personnes"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="card cruise">
+        <div class="icon">
+          <img src="/IMAGES/cruise.png" alt="" />
+        </div>
+        <div class="form">
+          <div class="qst">
+            <label for="durée">La durée (Heures)</label>
+            <input
+              type="number"
+              name="distance"
+              id="durée"
+              placeholder="indiquez la dureé"
+            />
+          </div>
+          <div class="qst">
+            <label for="personnes3">Nombre de personnes</label>
+            <input
+              type="number"
+              name=""
+              id="personnes3"
+              placeholder="indiquez le nombre de personnes"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn">
+        <a href="#"><button>Calculer</button></a>
+    </div>
+    <footer>
+        <h6>Ecole nationale polytechnique d'Alger</h6>
+        <h6>26éme journée de l'énergie</h6>
+      </footer>  
+  </body>
+</html>
